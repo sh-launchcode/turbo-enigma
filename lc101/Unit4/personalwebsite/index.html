@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Spencer G. Hirata</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: lightgray;
+      padding: 25px;
+      color: black;
+      text-shadow: none;
+    }
+    a:link {
+      color: black;
+      text-decoration: none;
+    }
+    a:hover {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    .jumbotron{
+      border: 1px solid black;
+      margin: 0;
+      background-size: cover;
+      /*text-shadow: -1px 0 white, 0 1px white, 0 -1px white, 1px 0 white;*/
+    }
+    body {
+      color: black;
+    }
+    #intro{
+      background-image: url("http://onehdwallpaper.com/wp-content/uploads/2015/07/Colorful-Nature-HD-Wallpapers-Pictures.jpg");
+    }
+    #AIMprove{
+      background-image: url("https://images8.alphacoders.com/569/569800.jpg");
+    }
+    #BoxGame{
+      background-image: url("http://www.wallpapermade.com/images/wallpapers/originals/assassin-s-creed-iv-beautiful-game-design-wallpaper-3990.jpg");
+    }
+    #intro{
+      background-image: url("http://onehdwallpaper.com/wp-content/uploads/2015/07/Colorful-Nature-HD-Wallpapers-Pictures.jpg");
+    }
+    #About{
+      background-image: url("http://static.superiorwallpapers.com/images/lthumbs/2016-03/11676_Landscape-beautiful-spring-nature-HD-wallpaper.jpg");
+    }
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#intro">About</a></li>
+        <li><a href="#AIMprove">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron" id="intro">
+  <div class="container text-center">
+    <h1>Spencer Hirata</h1>      
+    <p>Welcome to my portfolio! Here I have some of my projects showcased throughout the website,<br>and some of my front end skills as an aspiring web developer.</p>
+  </div>
+</div>
+<div class="jumbotron" id="About" data-toggle="collapse" data-target="#about">
+  <div class="container text-left"> 
+    <h2>Click this panel to learn more about me!</h2>      
+    <p id="about" class="collapse">First of all, thank you for checking out my website. For employers looking at my website, I highly encourage you to take a look at some of my programs. All the project panels are clickable to either a repository, or a website hosting my program. Each of the panels 
+      also has a detailed description of the languages and API/Frameworks used, and the functionality of the program. For those of you just interested in who I am, I’m a boot camp educated web developer who currently works as a swimming coach for Gold’s Aquatics Club. I have created this website to showcase some the skills I know as a front end web developer with hopes of starting a career in that area soon. <br> <br>
+This webpage in particular uses bootstrap, a framework for HTML, CSS, and Javascript. The features you see in here are all created using bootstrap. In addition to my proficient knowledge of HTML, CSS, and Javascript, I also know React.js, Python, PyMYSQL, SQL, python flask, some Java and some C++.<br> <br>
+Going past all the technical and formal information, let me tell you who I am. I’m a 20 year old (Almost 21) actively looking for opportunities to start a career in web development. I grew up in Woodinville WA attending public education post 3rd grade, and participated in club sports such as swimming, soccer and badminton. I worked as a lifeguard when I was 15 at Gold’s Gym. I also worked as a night clerk at QFC the summer of 2016. <br><br>
+If there are any passions of mine, the foundation of everything that I do is helping others out who need it. I was nominated for several awards in school including the Humanitarian award two out of my three years in public elementary school and the citizenship award two out of my three years at a public high school. I take passion in the event Relay For Life and have been participating in those events since I was 15. <br><br>
+If you would like to know more about me, visit my contact section and message me so I can answer those for you :)
+
+
+    </p>
+  </div>
+</div>
+<a href="https://tranquil-meadow-69122.herokuapp.com/">
+<div class="jumbotron" id="AIMprove">
+  <div class="container text-left"> 
+    <h2>AIMprove game</h2>      
+    <p>A personal project written in React.js. The idea behind this game was to help improve the aim of <br>
+    first person shooter gamers. As one myself, you can never get enough practice. Boxes will appear <br>
+    all across the canvas. Your goal is to just click on them. The game itself isn't finished yet and I will <br>
+    keep on improving it as I can.
+    </p>
+  </div>
+</div>
+</a>
+<div class="jumbotron" id="BoxGame">
+  <div class="container text-left">
+    <h2>Box Game</h2>      
+    <p>One of my first projects I made as a software developer. I made this game at ASU for honors credit,<br>
+    and at the time of when I made it, it actually worked. I made this with Pygames, an API specific towards making python<br>
+    games. You use the arrow keys to move around a window to cover other small boxes and improve your score. You have only
+    100 moves to cover as many boxes as you can!
+    </p>
+  </div>
+</div>
+
+<footer class="container-fluid text-center" id="contact">
+  <h2>Contact:</h2>
+  <p>Email:    spencerhirata@gmail.com</p>
+  <p>LinkedIn: <a href="https://www.linkedin.com/in/spencerhirata/"> https://www.linkedin.com/in/spencerhirata/</a></p>
+  <p>Phone:    (425)-877-9240</p>
+</footer>
+
+</body>
+</html>
